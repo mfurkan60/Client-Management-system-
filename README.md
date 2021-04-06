@@ -1,2 +1,1 @@
-# Client-Management-system-
-Client-Management-system 
+Bu proje Müşteri Takip Scriptini kapasamaktadaır.

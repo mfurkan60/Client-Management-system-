@@ -1,3 +1,9 @@
+<?php
+//Added database connection File
+include ("./functions/db.php");
+
+?> 
+ 
  <!DOCTYPE html>
 <html>
 <head>
@@ -214,6 +220,17 @@
               <p>
                 Calendar
                 <span class="badge badge-info right">2</span>
+              </p>
+            </a>
+          </li>
+
+
+          <li class="nav-item">
+            <a href="./settings.php" class="nav-link">
+              <i class="nav-icon far fa-calendar-alt"></i>
+              <p>
+                Settings
+                
               </p>
             </a>
           </li>

@@ -1,0 +1,18 @@
+Gerekli veritabanı ayarları
+
+Profil ayarları:
+
+
+Müşteriler:
+Müşteri İSim
+Müşteri Numarası
+Müşteri telefon Numarası
+Müşteri adress
+
+
+İşler
+
+
+Müşteri ekleme / Güncelleme
+
+İş ekleme / güncelleme
