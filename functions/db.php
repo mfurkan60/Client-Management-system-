@@ -1,7 +1,8 @@
 <?php 
 //General Database Settings 
 // database  connections
-
+ob_start();
+session_start();
  
 $servername = "localhost";
 $username = "root";

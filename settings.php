@@ -58,11 +58,8 @@
                         'site_aciklama' => $_POST['site_aciklama']
 
                     ));
-                } else { ?>
-                    <div class="alert alert-danger" role="alert">
-                        A simple danger alert—check it out!
-                    </div>
-                <?php }
+                } 
+                     
 
                 ?>
             </div>
