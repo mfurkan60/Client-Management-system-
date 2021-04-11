@@ -49,7 +49,7 @@ if(empty($_SESSION['kul_mail'])){
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="index.php" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -87,7 +87,7 @@ if(empty($_SESSION['kul_mail'])){
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Admin Admin</a>
+          <a href="index.php" class="d-block">Admin Admin</a>
         </div>
       </div>
 
@@ -116,10 +116,19 @@ if(empty($_SESSION['kul_mail'])){
             </ul>
           </li>
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="index.php" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Home
+                
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="addproject.php" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Add Project
                 
               </p>
             </a>

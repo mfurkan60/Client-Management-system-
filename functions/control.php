@@ -19,5 +19,33 @@ if(isset($_POST['login'])){
 
 }
 
+ 
+
+if (isset($_POST['add_project'])){
+     
+    $projeekle=$db->prepare("INSERT INTO proje SET
+    proje_baslik=:baslik,
+    proje_detay=:detay,
+    proje_teslim_tarihi=:teslim_tarihi,
+    proje_durum=:durum,
+    proje_aciliyet=:aciliyet
+    ");
+
+   $ekleme=$projeekle->execute(array(
+    'baslik' => $_POST['proje_baslik'],
+    'detay' => $_POST['proje_detay'],
+    'teslim_tarihi' => $_POST['proje_teslim_tarihi'],
+    'durum' => $_POST['proje_durum'],
+    'aciliyet' => $_POST['proje_aciliyet']
+  ));
+  if($add_project){
+    header("location:../index.php");
+}
+else{
+    echo "bir hata var";
+}
+}
 
 ?>
+
+
